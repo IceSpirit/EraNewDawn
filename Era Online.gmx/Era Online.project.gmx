@@ -9,13 +9,12 @@
     <sprites name="Terrain">
       <sprite>sprites\sprite0_Grh5</sprite>
     </sprites>
-    <sprite>sprites\sprite7_Grh2001</sprite>
+    <sprite>sprites\spr_newplayer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Grass</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>
