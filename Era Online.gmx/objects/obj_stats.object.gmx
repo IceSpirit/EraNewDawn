@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>{
-        draw_text(x,y,"Level: "+string(global.level));
-            
+draw_text(view_xview,view_yview,"Level: "+string(global.level));
+draw_text(view_xview,view_yview+16,"Health: "+string(global.hp)+"/"+string(global.maxhp));
+draw_text(view_xview,view_yview+32,"Exp: "+string(global.expr)+"/"+string(global.maxexpr));
 }
 </string>
           </argument>
