@@ -68,8 +68,8 @@ lastIndex = 6
           <argument>
             <kind>1</kind>
             <string>{
-    vx = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 2;
-    vy = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * 2;
+    vx = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 4;
+    vy = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * 4;
 
     if (vx != 0 || vy != 0) // If any direction key is pressed.
     { 
