@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\mu_music1</sound>
+    <sound>sound\mu_music2</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Terrain">
@@ -33,6 +34,7 @@
     <object>objects\obj_exp</object>
     <object>objects\obj_globals</object>
     <object>objects\obj_stats</object>
+    <object>objects\obj_musicplayer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
