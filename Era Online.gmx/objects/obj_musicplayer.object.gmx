@@ -25,10 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>m_currentlyPlaying = 0; // This will hold the reference to the playing track but GML has no types or null values.
-
-m_sounds[0] = mu_music1;
+            <string>m_sounds[0] = mu_music1;
 m_sounds[1] = mu_music2;
+m_sounds[2] = mu_music3;
+m_sounds[3] = mu_music4;
+m_sounds[4] = mu_music5;
+m_sounds[5] = mu_music6;
+m_sounds[6] = mu_music7;
+m_sounds[7] = mu_music8;
+m_sounds[8] = mu_music9;
+m_sounds[9] = mu_music10;
+
+m_currentlyPlaying = m_sounds[0];
 </string>
           </argument>
         </arguments>
@@ -51,7 +59,7 @@ m_sounds[1] = mu_music2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (m_currentlyPlaying == 0 || !audio_is_playing(m_currentlyPlaying))
+            <string>if (!audio_is_playing(m_currentlyPlaying))
 {
     nextIndex = irandom(array_length_1d(m_sounds) - 1);
     m_currentlyPlaying = m_sounds[nextIndex];

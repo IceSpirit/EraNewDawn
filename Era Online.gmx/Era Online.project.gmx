@@ -7,6 +7,14 @@
   <sounds name="sound">
     <sound>sound\mu_music1</sound>
     <sound>sound\mu_music2</sound>
+    <sound>sound\mu_music3</sound>
+    <sound>sound\mu_music4</sound>
+    <sound>sound\mu_music5</sound>
+    <sound>sound\mu_music6</sound>
+    <sound>sound\mu_music7</sound>
+    <sound>sound\mu_music8</sound>
+    <sound>sound\mu_music9</sound>
+    <sound>sound\mu_music10</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Terrain">
