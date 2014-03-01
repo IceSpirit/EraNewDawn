@@ -15,6 +15,12 @@
     <sound>sound\mu_music8</sound>
     <sound>sound\mu_music9</sound>
     <sound>sound\mu_music10</sound>
+    <sound>sound\mu_music11</sound>
+    <sound>sound\mu_music12</sound>
+    <sound>sound\mu_music13</sound>
+    <sound>sound\mu_music14</sound>
+    <sound>sound\mu_music15</sound>
+    <sound>sound\mu_music16</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Terrain">

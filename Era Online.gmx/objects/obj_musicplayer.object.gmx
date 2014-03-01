@@ -35,8 +35,16 @@ m_sounds[6] = mu_music7;
 m_sounds[7] = mu_music8;
 m_sounds[8] = mu_music9;
 m_sounds[9] = mu_music10;
+m_sounds[10] = mu_music11;
+m_sounds[11] = mu_music12;
+m_sounds[12] = mu_music13;
+m_sounds[13] = mu_music14;
+m_sounds[14] = mu_music15;
+m_sounds[15] = mu_music16;
 
 m_currentlyPlaying = m_sounds[0];
+
+m_soundsMaxIndex = array_length_1d(m_sounds) - 1;
 </string>
           </argument>
         </arguments>
@@ -61,7 +69,7 @@ m_currentlyPlaying = m_sounds[0];
             <kind>1</kind>
             <string>if (!audio_is_playing(m_currentlyPlaying))
 {
-    nextIndex = irandom(array_length_1d(m_sounds) - 1);
+    var nextIndex = irandom(m_soundsMaxIndex);
     m_currentlyPlaying = m_sounds[nextIndex];
     audio_play_sound(m_currentlyPlaying, 100, false);
 }
