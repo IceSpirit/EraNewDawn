@@ -19,6 +19,7 @@
   <sprites name="sprites">
     <sprites name="Terrain">
       <sprite>sprites\spr_grass</sprite>
+      <sprite>sprites\spr_wall1</sprite>
     </sprites>
     <sprites name="npcs">
       <sprite>sprites\spr_newplr_down</sprite>
@@ -31,22 +32,37 @@
       <sprite>sprites\spr_newplr_Rside</sprite>
       <sprite>sprites\spr_dragon_down</sprite>
       <sprite>sprites\spr_dragon_up</sprite>
+      <sprite>sprites\spr_dragon_left</sprite>
+      <sprite>sprites\spr_dragon_right</sprite>
+      <sprite>sprites\spr_dragon_facing</sprite>
+      <sprite>sprites\spr_dragon_back</sprite>
+      <sprite>sprites\spr_dragon_Lside</sprite>
+      <sprite>sprites\spr_dragon_Rside</sprite>
     </sprites>
     <sprite>sprites\spr_exp</sprite>
     <sprite>sprites\spr_greyhead</sprite>
-    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Grass</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\AI_script.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\obj_newplr</object>
-    <object>objects\obj_dragon</object>
     <object>objects\obj_exp</object>
-    <object>objects\obj_globals</object>
-    <object>objects\obj_stats</object>
-    <object>objects\obj_musicplayer</object>
+    <objects name="global">
+      <object>objects\obj_globals</object>
+      <object>objects\obj_stats</object>
+      <object>objects\obj_musicplayer</object>
+    </objects>
+    <objects name="npcs">
+      <object>objects\obj_newplr</object>
+      <object>objects\obj_dragon</object>
+    </objects>
+    <objects name="terrain">
+      <object>objects\obj_wall</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
